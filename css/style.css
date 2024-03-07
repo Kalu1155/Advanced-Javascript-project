@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.banner {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.banner h1 {
+  padding-top: 200px;
+  color: white;
+}
+.banner p {
+  font-size: large;
+}
+.banner a {
+  color: white;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.box {
+  background-color: #212529;
+  height: 80vh;
+  color: white;
+}
+.box .top ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.box .quizcon {
+  margin: 100px 50px 50px 440px;
+}
+
+.modal {
+  display: none !important;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  border: 1px solid #888;
+  width: 60% !important;
+  height: 70%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  margin-left: 770px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.conn h1 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.conn .new-sign {
+  margin-left: 350px;
+}
+.conn .new-sign input {
+  margin-top: 70px;
+}
+.conn .new-sign button {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.con button {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 440px;
+  border: none;
+  color: #fff;
+  background-color: rgb(24, 189, 76);
+  font-size: 1.2rem;
+}
+.con button:hover {
+  cursor: pointer;
+  background-color: rgba(24, 189, 76, 0.8);
+}
+
+.con1 input {
+  width: 78vw;
+}
+
+.con2 input {
+  width: 35vw;
+}
+
+.con3 input {
+  width: 35vw;
+}
+
+.conn1 input {
+  width: 30vw;
+}
+.conn1 select {
+  border-radius: 5px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.conn2 input {
+  width: 30vw;
+}
+.conn2 select {
+  border-radius: 5px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.conn3 input {
+  width: 30vw;
+}
+.conn3 select {
+  border-radius: 5px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.conn4 input {
+  width: 30vw;
+}
+.conn4 select {
+  border-radius: 5px;
+  width: auto;
+  margin-top: 10px;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/istockphoto-1391066415-170667a.webp") center/cover fixed no-repeat;
+}
+
+p {
+  color: white;
+}
+p b {
+  color: red;
+}
+
+.con h1 {
+  color: white;
+  text-align: center;
+}
+.con label {
+  color: white;
+}
+.con hr {
+  border: 2px solid red;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

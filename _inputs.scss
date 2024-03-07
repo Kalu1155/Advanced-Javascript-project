@@ -1,0 +1,61 @@
+.con1{
+   input{
+    width: 78vw;
+   } 
+}
+.con2{
+    input{
+        width: 35vw;
+    }
+}
+.con3{
+    // padding-left: 50px;
+
+    input{
+        width: 35vw;
+    }
+}
+
+
+.conn1{
+    input{
+        width: 30vw;
+    } 
+    select{
+        border-radius: 5px;
+        width: auto;
+        margin-top: 10px;
+    }
+ }
+ .conn2{
+     input{
+         width: 30vw;
+     }
+     select{
+        border-radius: 5px;
+        width: auto;
+        margin-top: 10px;
+    }
+ }
+ .conn3{
+     input{
+         width: 30vw;
+        //  margin-left: 30px;
+     }
+     select{
+        border-radius: 5px;
+        width: auto;
+        margin-top: 10px;
+    }
+ }
+ .conn4{
+    input{
+        width: 30vw;
+    }
+    select{
+        border-radius: 5px;
+        // width: 8vw;
+        width: auto;
+        margin-top: 10px;
+    }
+}

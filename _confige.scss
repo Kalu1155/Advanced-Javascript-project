@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    h1{
+        padding-top: 200px;
+        color: white;
+    }
+    p{
+        font-size: large;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.flex{
+    display: flex;
+}
+.box{
+    background-color: #212529;
+    height: 80vh;
+    color: white;
+    // width: 10vw;
+    .top{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none; 
+        }
+    }
+    .quizcon{
+      margin: 100px 50px 50px 440px;
+    }
+}
+.modal {
+    display: none !important;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    // background-color: #fefefe;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    // padding: 50px 50px 50px 50px;
+    border: 1px solid #888;
+    width: 60% !important;
+    height: 70%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    margin-left: 770px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .conn{
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .new-sign{
+        margin-left: 350px;
+        input{
+            margin-top: 70px;
+        }
+        button{
+            margin-top: 20px;
+            margin-left: 180px;
+        }
+    
+      }
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumen et Veritas Quiz System</title>
+<!-- <link rel="stylesheet" href="../made/style.css"> -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Lumen et Veritas Quiz Competition</h1>
+  <p id="registrationDeadline">Registration Deadline: October 1st</p>
+  <button onclick="register()">Register</button>
+  <div id="quizContainer" style="display: none;">
+    <h2>Quiz Questions</h2>
+    <div id="question"></div>
+    <input type="text" id="answer" placeholder="Your Answer">
+    <button onclick="submitAnswer()">Submit</button>
+    <p id="result"></p>
+  </div>
+</div>
+<div id="winnersModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Quiz Winners</h2>
+    <p id="winnersList"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+<!-- <script src="../made/script.js"></script> -->
+</body>
+</html>

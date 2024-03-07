@@ -1,0 +1,27 @@
+@import "_confige.scss";
+@import "_buttons.scss";
+@import "_mobile.scss";
+@import "_inputs.scss";
+@import "_image.scss";
+
+p{
+    color: white;
+    b{
+        color: red;
+    }
+}
+.con{
+    h1{
+        color: white;
+        text-align: center;
+    }
+    label{
+        color: white;
+    }
+    hr{
+        // padding: 50px;
+        border: 2px solid red;
+        background-color: red;
+        // width: 0vw;
+    }
+}
